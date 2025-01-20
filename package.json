@@ -1,0 +1,21 @@
+{
+  "name": "azure-openai-app",
+  "version": "1.0.0",
+  "description": "A small project for Azure OpenAI connectivity.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@azure/openai": "^2.0.0",
+    "openai": "^4.79.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
